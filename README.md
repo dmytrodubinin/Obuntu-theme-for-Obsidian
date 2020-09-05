@@ -13,9 +13,14 @@ A theme for Obsidian, inspired by and borrowing elements from Ubuntu for deeper 
 - custom checklist
 - more expressive tables
 - better vim mode colors
+- responsive Community Themes page for better experience in wide screen (screenshot below)
  
  ## More Screenshots
 
  ![Dark Theme](screenshot-dark.png)
 
  ![Light Theme](screenshot-light.png)
+
+ ### Community Theme page with responsive experience
+
+ ![Community Theme page](screenshot-community-themes-page.png) 

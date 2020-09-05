@@ -227,6 +227,17 @@ ul ul::before {
   background-color: var(--text-accent-hover);
 }
 
+/* === Community Themes page: make responsive === */
+.community-theme-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.community-theme {
+  max-width: 600px;
+}
+
 /* ===TRANSCLUSION TWEAKS=== */
 
 .markdown-embed-title {
