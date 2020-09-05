@@ -12,3 +12,8 @@ A theme for Obsidian, inspired by and borrowing elements from Ubuntu for deeper 
 - indentation lines
 - custom checklist
  
+ ## More Screenshots
+
+ ![Dark Theme] (screenshot-dark.png)
+
+ ![Light Theme] (screenshot-light.png)
