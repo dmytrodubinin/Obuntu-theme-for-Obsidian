@@ -75,6 +75,10 @@ body {
   --lines-identation: #dad8d8;
 }
 
+/* add border radius in popup for suggestion  in tags etc */
+.suggestion {
+  border-radius: 4px;
+}
 
 /* change color of workspace when drag */
 .workspace-drop-overlay.mod-drag {
@@ -144,8 +148,9 @@ input[type="checkbox"]:checked {
 }
 
 /* change text selection background in edit mode, no way to change text color */
-.CodeMirror-focused .CodeMirror-selected, .CodeMirror-selected {
-  background-color: rgba(223,74,22, 0.3);
+.CodeMirror-focused .CodeMirror-selected,
+.CodeMirror-selected {
+  background-color: rgba(223, 74, 22, 0.3);
 }
 
 /* FIXME : dropdown colors in settings page */
@@ -154,7 +159,6 @@ input[type="checkbox"]:checked {
 .theme-light .token.operator {
   background: hsla(0, 0%, 100%, 0);
 }
-
 
 /* === VIM Mode === */
 .cm-fat-cursor .CodeMirror-cursor {
