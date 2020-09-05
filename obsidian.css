@@ -358,6 +358,7 @@ svg.link {
 
 .workspace-tab-header:hover {
   color: var(--text-accent);
+  cursor: pointer;
 }
 /* ===== snappier animations ==== */
 
