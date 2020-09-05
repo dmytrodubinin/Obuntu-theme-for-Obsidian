@@ -13,7 +13,7 @@ A theme for Obsidian, inspired by and borrowing elements from Ubuntu for deeper 
 - custom checklist
 - more expressive tables
 - better vim mode colors
-- responsive Community Themes page for better experience in wide screen (screenshot below)
+- responsive Community Themes page for better experience in wide screen (demo below)
  
  ## More Screenshots
 
@@ -23,4 +23,4 @@ A theme for Obsidian, inspired by and borrowing elements from Ubuntu for deeper 
 
  ### Community Theme page with responsive experience
 
- ![Community Theme page](screenshot-community-themes-page.png) 
+ ![Community Theme page](demo-community-themes-page-responsive.gif) 
