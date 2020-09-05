@@ -74,6 +74,12 @@ body {
   --bw: #03050b;
   --lines-identation: #dad8d8;
 }
+
+/* change color of workspace when drag */
+.workspace-drop-overlay.mod-drag {
+  background-color: var(--text-accent);
+}
+
 /* markdown edit mode width */
 .markdown-source-view.is-readable-line-width .CodeMirror {
   max-width: 800px;
