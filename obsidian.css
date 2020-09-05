@@ -75,6 +75,7 @@ body {
   --lines-identation: #dad8d8;
 }
 
+
 /* change color of workspace when drag */
 .workspace-drop-overlay.mod-drag {
   background-color: var(--text-accent);
@@ -142,11 +143,10 @@ input[type="checkbox"]:checked {
   background-color: var(--text-accent);
 }
 
-/* FIXME : text selection in edit mode */
-
-/* .theme-dark .cm-s-obsidian span.cm-inline-code::selection {
-  color: #fff;
-} */
+/* change text selection background in edit mode, no way to change text color */
+.CodeMirror-focused .CodeMirror-selected, .CodeMirror-selected {
+  background-color: rgba(223,74,22, 0.3);
+}
 
 /* FIXME : dropdown colors in settings page */
 
