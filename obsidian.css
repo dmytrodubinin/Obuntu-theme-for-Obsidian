@@ -219,6 +219,14 @@ ul ul::before {
   bottom: 0;
 }
 
+/* === Settings Page: change buttons color === */
+.modal.mod-settings button:not(.mod-cta) {
+  background-color: var(--text-accent);
+}
+.modal.mod-settings button:not(.mod-cta):hover {
+  background-color: var(--text-accent-hover);
+}
+
 /* ===TRANSCLUSION TWEAKS=== */
 
 .markdown-embed-title {
