@@ -12,6 +12,7 @@ A theme for Obsidian, inspired by and borrowing elements from Ubuntu for deeper 
 - indentation lines
 - custom checklist
 - more expressive tables
+- better vim mode colors
  
  ## More Screenshots
 
