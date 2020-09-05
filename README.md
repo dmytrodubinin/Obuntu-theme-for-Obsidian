@@ -14,6 +14,6 @@ A theme for Obsidian, inspired by and borrowing elements from Ubuntu for deeper 
  
  ## More Screenshots
 
- ![Dark Theme] (screenshot-dark.png)
+ ![Dark Theme](screenshot-dark.png)
 
- ![Light Theme] (screenshot-light.png)
+ ![Light Theme](screenshot-light.png)
