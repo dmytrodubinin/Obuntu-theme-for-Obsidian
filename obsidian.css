@@ -335,19 +335,63 @@ svg.link {
 }
 
 /* ==========headings=======*/
-.markdown-preview-view h1 {
+h1 {
   font-size: 34px;
   line-height: 40px;
   padding-bottom: 10px;
-  border-bottom: 1px solid var(--text-accent);
+  border-bottom: 2px solid var(--text-accent);
+  color: var(--text-accent);
 }
-.markdown-preview-view h2 {
+h2 {
   font-size: 26px;
   line-height: 36px;
   padding-top: 14px;
   padding-bottom: 6px;
-  border-bottom: 1px solid var(--text-faint);
+  border-bottom: 2px solid var(--text-normal);
 }
+h3 {
+  padding-bottom: 5px;
+  border-bottom: 1px solid var(--text-muted);
+}
+h4 {
+  padding-bottom: 4px;
+  border-bottom: 1px dashed var(--text-muted);
+}
+h5 {
+  padding-bottom: 3px;
+  border-bottom: 1px dotted var(--text-muted);
+}
+
+/* h1::before {
+    content: 'h1 ';
+    font-size: 12px;
+    color: var(--text-faint);
+}
+h2::before {
+    content: 'h2 ';
+    font-size: 12px;
+    color: var(--text-faint);
+}
+h3::before {
+    content: 'h3 ';
+    font-size: 12px;
+    color: var(--text-faint);
+}
+h4::before {
+    content: 'h4 ';
+    font-size: 12px;
+    color: var(--text-faint);
+}
+h5::before {
+    content: 'H5 ';
+    font-size: 12px;
+    color: var(--text-faint);
+}
+h6::before {
+    content: 'H6 ';
+    font-size: 12px;
+    color: var(--text-faint);
+} */
 
 /* ==========hr======*/
 .markdown-preview-view hr {
