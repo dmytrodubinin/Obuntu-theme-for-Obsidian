@@ -144,7 +144,7 @@ input[type="checkbox"]:checked {
 .theme-dark .markdown-preview-view pre > *::selection,
 *::selection {
   color: #fff;
-  background-color: var(--text-accent);
+  background-color: var(--text-selection);
 }
 
 /* change text selection background in edit mode, no way to change text color */
