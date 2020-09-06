@@ -73,6 +73,11 @@ body {
   --lines-identation: #dad8d8;
 }
 
+/* fix local graph input range background */
+input[type='range'] {
+  background-color: var(--background-secondary);
+}
+
 /* === Header Counters === */
 /* List styling (numbering) for outline pane */
 /* Thanks Klaas */
