@@ -444,9 +444,9 @@ input[type="checkbox"]:checked {
 /* Thanks Klaas for idea and some realization */
 
 .tag-pane-tag-text {
-  background-color: var(--text-accent);
+  background-color: var(--background-primary);
+  color: var(--text-normal);
   border: none;
-  color: white;
   font-size: 12px;
   padding: 1px 8px;
   text-align: center;
@@ -459,9 +459,9 @@ input[type="checkbox"]:checked {
 }
 
 .tag-pane-tag-count {
-  background-color: var(--text-accent);
+  background-color: var(--background-primary);
+  color: var(--text-normal);
   border: none;
-  color: white;
   font-size: 11px;
   padding: 2px 8px;
   text-align: center;
@@ -475,10 +475,9 @@ input[type="checkbox"]:checked {
 
 .tag-pane-tag:hover > .tag-pane-tag-count,
 .tag-pane-tag:hover > .tag-pane-tag-text {
-  background-color: var(--text-accent-hover);
+  background-color: var(--text-accent);
   color: white;
   font-weight: bold;
-  border-radius: 10px;
 }
 
 /*=== trace indentation lines === */
