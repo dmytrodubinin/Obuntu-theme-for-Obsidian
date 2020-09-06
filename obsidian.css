@@ -27,7 +27,7 @@ body {
   --text-error-hover: #990000;
   --text-matched: #dcddde;
   --text-on-accent: #dcddde;
-  --text-selection: rgba(223, 74, 22, 0.3);
+  --text-selection: rgba(223, 74, 22, 0.8);
   --text-highlight-bg: #df4a16;
   --interactive-normal: #2a2a2a;
   --interactive-hover: #303030;
@@ -61,7 +61,7 @@ body {
   --text-error-hover: #990000;
   --text-matched: #dcddde;
   --text-on-accent: #dcddde;
-  --text-selection: rgba(223, 74, 22, 0.3);
+  --text-selection: rgba(223, 74, 22, 0.8);
   --text-highlight-bg: #df4a16;
   --interactive-normal: #2a2a2a;
   --interactive-hover: #303030;
@@ -150,7 +150,7 @@ input[type="checkbox"]:checked {
 /* change text selection background in edit mode, no way to change text color */
 .CodeMirror-focused .CodeMirror-selected,
 .CodeMirror-selected {
-  background-color: rgba(223, 74, 22, 0.3);
+  background-color: var(--text-selection);
 }
 
 /* FIXME : dropdown colors in settings page */
