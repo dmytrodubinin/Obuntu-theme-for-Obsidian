@@ -17,6 +17,7 @@ Thanks to [cannibalox](https://github.com/cannibalox) and his theme
 - more expressive tables
 - better vim mode colors
 - responsive Community Themes page for better experience in wide screen (demo below)
+- List styling (numbering) in outline pane (thanks Klaas)
  
  ## More Screenshots
 
