@@ -200,6 +200,47 @@ input[type="checkbox"]:checked {
   background-color: var(--text-accent-hover);
 }
 
+/* Tag pills in tag panel*/
+/* Thanks Klaas for idea and some realization */
+
+.tag-pane-tag-text {
+  background-color: var(--text-accent);
+  border: none;
+  color: white;
+  font-size: 12px;
+  padding: 1px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 1px 1px;
+  cursor: pointer;
+  border-radius: 14px;
+  transition: all 0.3s ease;
+}
+
+.tag-pane-tag-count {
+  background-color: var(--text-accent);
+  border: none;
+  color: white;
+  font-size: 11px;
+  padding: 2px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0px 0px;
+  cursor: pointer;
+  border-radius: 14px;
+  transition: all 0.3s ease;
+}
+
+.tag-pane-tag:hover > .tag-pane-tag-count,
+.tag-pane-tag:hover > .tag-pane-tag-text {
+  background-color: var(--text-accent-hover);
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
 /*=== trace indentation lines === */
 
 .cm-hmd-list-indent .cm-tab,
@@ -520,9 +561,9 @@ h6::before {
 .nav-file.is-active > .nav-file-title:hover {
   color: var(--text-selection);
 }
-.list-item:hover .tag-pane-tag-text {
+/* .list-item:hover .tag-pane-tag-text {
   color: var(--text-selection);
-}
+} */
 
 /*----file explorer smaller fonts & line height----*/
 
@@ -676,27 +717,6 @@ input[type="number"] {
   height: 32px;
   background: var(--background-secondary-alt);
   /*border-right: 1px solid var(--background-modifier-border);*/
-}
-
-/* ===== tag pane ===================*/
-
-.tag-pane-tag {
-  font-size: 14px;
-  line-height: 20px;
-}
-
-.tag-pane-tag-count {
-  top: 2px;
-  right: 10px;
-  font-size: 14px;
-  background-color: var(--background-secondary-alt);
-  line-height: 12px;
-  border-radius: 3px;
-  padding: 2px 4px;
-}
-
-.pane-clickable-item {
-  padding: 0px 15px;
 }
 
 /*==== separators =====*/

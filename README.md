@@ -11,7 +11,7 @@ Thanks to [cannibalox](https://github.com/cannibalox) and his theme
 - light and dark themes
 - modern design with great color integration with Ubuntu
 - beauty fonts: [Roboto](https://fonts.google.com/specimen/Roboto) and [Fira Code](https://fonts.google.com/specimen/Fira+Code) for better experience
-- colors tags
+- colors tags in edit view and custom tags look in panel (thanks Klaas for idea and some realization) 
 - indentation lines
 - custom checklist
 - more expressive tables
