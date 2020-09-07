@@ -42,6 +42,7 @@ body {
   --accent-mild: #e6b64f;
   --bw: #ffffff;
   --lines-identation: #535353;
+  --tooltip-bg: rgba(223, 74, 22, 0.9);
 }
 
 /* === LIGHT MODE === */
@@ -71,6 +72,14 @@ body {
   --accent-mild: #e6b64f;
   --bw: #03050b;
   --lines-identation: #dad8d8;
+  --tooltip-bg: rgba(223, 74, 22, 0.9);
+}
+
+/* === Tooltip === */
+.tooltip {
+  background-color: var(--tooltip-bg);
+  color: #fff;
+  font-weight: bold;
 }
 
 /* Make selected items in settings more visible */
