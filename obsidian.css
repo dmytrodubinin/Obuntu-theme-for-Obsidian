@@ -541,6 +541,7 @@ ul ul::before {
 .modal.mod-settings button:not(.mod-cta) {
   background-color: var(--text-accent);
   color: #fff;
+  font-weight: bold;
 }
 .modal.mod-settings button:not(.mod-cta):hover {
   background-color: var(--text-accent-hover);
