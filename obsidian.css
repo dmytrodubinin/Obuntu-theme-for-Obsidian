@@ -73,13 +73,24 @@ body {
   --lines-identation: #dad8d8;
 }
 
+/* Make selected items in settings more visible */
+.horizontal-tab-nav-item.is-active,
+.vertical-tab-nav-item.is-active {
+  background-color: var(--background-primary);
+}
+.horizontal-tab-nav-item:hover,
+.vertical-tab-nav-item:hover{
+  background-color: var(--background-primary);
+  transition: all 0.3s ease;
+}
+
 /* Add border in settings page */
 .modal.mod-settings .vertical-tab-header {
   border-right: 1px solid var(--background-primary);
 }
 
 /* fix local graph input range background */
-input[type='range'] {
+input[type="range"] {
   background-color: var(--background-secondary);
 }
 
