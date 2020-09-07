@@ -460,7 +460,7 @@ input[type="checkbox"]:checked {
   margin: 1px 1px;
   cursor: pointer;
   border-radius: 14px;
-  transition: all 0.3s ease;
+  transition: all 0.2s ease;
 }
 
 .tag-pane-tag-count {
@@ -475,7 +475,7 @@ input[type="checkbox"]:checked {
   margin: 0px 0px;
   cursor: pointer;
   border-radius: 14px;
-  transition: all 0.3s ease;
+  transition: all 0.2s ease;
 }
 
 .tag-pane-tag:hover > .tag-pane-tag-count,
