@@ -540,6 +540,7 @@ ul ul::before {
 /* === Settings Page: change buttons color === */
 .modal.mod-settings button:not(.mod-cta) {
   background-color: var(--text-accent);
+  color: #fff;
 }
 .modal.mod-settings button:not(.mod-cta):hover {
   background-color: var(--text-accent-hover);
