@@ -75,6 +75,13 @@ body {
   --tooltip-bg: rgba(223, 74, 22, 0.9);
 }
 
+/* change highlight h1 in text from outline panel or search */
+/* because color the same */
+
+.markdown-preview-view .mod-highlighted h1 {
+  color: white;
+}
+
 /* === Tooltip === */
 .tooltip {
   background-color: var(--tooltip-bg);
@@ -1226,12 +1233,6 @@ input[type="number"] {
 }
 
 /* =========== footnotes ========= */
-
-.markdown-preview-view .mod-highlighted {
-  transition: background-color 1s ease;
-  background-color: var(--text-highlight-bg);
-  color: var(--text-matched);
-}
 
 .footnotes {
   text-align: justify;
