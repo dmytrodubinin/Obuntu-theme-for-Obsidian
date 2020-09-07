@@ -79,7 +79,7 @@ body {
   background-color: var(--background-primary);
 }
 .horizontal-tab-nav-item:hover,
-.vertical-tab-nav-item:hover{
+.vertical-tab-nav-item:hover {
   background-color: var(--background-primary);
   transition: all 0.3s ease;
 }
@@ -807,43 +807,42 @@ h6::before {
   margin-bottom: 10px;
 }
 
-/* ----file explorer: smaller & bold vault title--- */
+/* == File Explorer === */
+.nav-file-title,
+.nav-folder-title {
+  padding: 0px 14px 0px 20px;
+}
+
+.nav-folder-title {
+  font-weight: bold;
+}
 
 .nav-folder.mod-root > .nav-folder-title {
   padding-left: 6px;
   font-size: 14px;
   font-weight: bolder;
-  top: -6px; /* higher */
+  top: -6px;
   cursor: default;
 }
 
 .nav-file.is-active > .nav-file-title,
 .nav-file.is-active > .nav-file-title:hover {
-  color: var(--text-selection);
-}
-/* .list-item:hover .tag-pane-tag-text {
-  color: var(--text-selection);
-} */
-
-/*----file explorer smaller fonts & line height----*/
-
-.nav-file-title,
-.nav-folder-title {
-  font-size: 14px;
-  line-height: 14px;
-  cursor: pointer;
-  position: relative;
-  border-width: 1px;
-  border-style: solid;
-  border-color: transparent;
-  border-image: initial;
-  border-radius: 0px;
-  padding: 0px 14px 0px 20px;
-}
-
-.nav-folder-title {
-  font-size: 16px;
+  background-color: var(--background-primary);
+  border-radius: 2px;
   font-weight: bold;
+  /* color: var(--text-accent); */
+  border-left: 2px solid var(--text-accent);
+  transition: all 0.5s ease;
+}
+.nav-file.is-active > .nav-file-title {
+  padding-left: 5px;
+  /* margin-left: 5px; */
+}
+body:not(.is-grabbing) .nav-file-title:hover,
+body:not(.is-grabbing) .nav-folder-title:hover {
+  background-color: var(--background-primary);
+  border-radius: 2px;
+  transition: all 0.2s ease;
 }
 
 .nav-file-tag {
@@ -1347,10 +1346,10 @@ tbody {
 }
 
 /* Indent wrapped nav text */
-.nav-file-title-content {
+/* .nav-file-title-content {
   margin-left: 10px;
   text-indent: -10px;
-}
+} */
 
 /* Justify preview text */
 .markdown-preview-view p {
