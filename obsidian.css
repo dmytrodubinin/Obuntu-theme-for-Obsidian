@@ -73,6 +73,11 @@ body {
   --lines-identation: #dad8d8;
 }
 
+/* Add border in settings page */
+.modal.mod-settings .vertical-tab-header {
+  border-right: 1px solid var(--background-primary);
+}
+
 /* fix local graph input range background */
 input[type='range'] {
   background-color: var(--background-secondary);
