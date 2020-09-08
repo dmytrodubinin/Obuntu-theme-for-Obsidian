@@ -5,8 +5,8 @@ body {
 }
 
 .CodeMirror pre.CodeMirror-line {
-  font-size: 13px;
-  font-family: "Fira Code", "Source Code Pro", monospace;
+  font-size: 14px;
+  /* font-family: "Fira Code", "Source Code Pro", monospace; */
 }
 
 /* === DARK MODE === */
