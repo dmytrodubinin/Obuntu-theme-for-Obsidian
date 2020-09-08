@@ -78,6 +78,12 @@ body {
   --tooltip-bg: rgba(223, 74, 22, 0.9);
 }
 
+/* fix background of bolder-collapse-indicator */
+body:not(.is-grabbing) .nav-folder-title:hover .nav-folder-collapse-indicator {
+  background: none;
+}
+
+
 /* change highlight h1 in text from outline panel or search */
 /* because color the same */
 
