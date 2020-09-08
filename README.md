@@ -21,9 +21,15 @@ Thanks to [cannibalox](https://github.com/cannibalox) and his theme
  
  ## More Screenshots
 
+### Dark Theme
+
  ![Dark Theme](screenshot-dark.png)
+ ![Dark Theme](screenshot-dark-2.png)
+
+### Dark Theme
 
  ![Light Theme](screenshot-light.png)
+ ![Light Theme](screenshot-light-2.png)
 
  ### Community Theme page with responsive experience
 
