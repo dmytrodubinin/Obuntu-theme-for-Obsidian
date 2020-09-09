@@ -1264,7 +1264,7 @@ input[type="number"] {
   );
 }
 
-/* =========== footnotes ========= */
+/* === footnotes === */
 
 .footnotes {
   text-align: justify;
@@ -1286,7 +1286,7 @@ sub {
   position: relative;
   margin: 0px 0 -4px 3px;
 }
-/* =========== quote block ========= */
+/* === Quote Block === */
 .markdown-preview-view blockquote {
   border-radius: 4px;
   border: 0px solid var(--background-modifier-border);
@@ -1303,7 +1303,7 @@ sub {
 }
 .markdown-preview-view blockquote p {
   display: inline;
-  margin: 0 0 0 -5px;
+  margin: 0;
 }
 /* Add quotation character before and after quote */
 .markdown-preview-view blockquote:before {
