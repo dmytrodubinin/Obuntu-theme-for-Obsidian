@@ -85,14 +85,13 @@ body {
   margin-bottom: 20pt;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;  /*experiment with values*/
-  transition:transform 0.25s ease;
+  width: 50%; /*experiment with values*/
+  transition: transform 0.25s ease;
 }
 
 .markdown-preview-view img:hover {
-    -webkit-transform:scale(2); /* experiment with values */
-    transform:scale(2);
-    
+  -webkit-transform: scale(2); /* experiment with values */
+  transform: scale(2);
 }
 
 /* fix background of folder-collapse-indicator */
@@ -1288,23 +1287,6 @@ sub {
   margin: 0px 0 -4px 3px;
 }
 /* =========== quote block ========= */
-/* Add quotation character before quote */
-blockquote.rq:before {
-  content: "\02033"; /* \275D \0022 \02033 \02DD \201F \201D \030B \02BA*/
-  font-size: 5em;
-  color: var(--text-accent);
-  vertical-align: -0.1em;
-  line-height: 2px;
-  padding: 20px 10px 0 0px;
-  float: left;
-}
-blockquote.rq:after {
-  content: "\02033"; /* \275D \0022 \02033 \02DD \201F \201D \030B \02BA*/
-  font-size: 5em;
-  color: var(--text-accent);
-  float: right;
-  padding: 16px 0px 0 10px;
-}
 .markdown-preview-view blockquote {
   border-radius: 4px;
   border: 0px solid var(--background-modifier-border);
@@ -1317,25 +1299,28 @@ blockquote.rq:after {
   margin-inline-start: 20px;
   text-align: justify;
   hyphens: auto;
+  /* margin-inline-start: 0; */
 }
-.markdown-preview-view blockquote.rq {
-  border-left: 5px solid var(--text-accent);
-  border-radius: 0;
-  border: 0px solid var(--background-modifier-border);
-  background-color: var(--background-primary-alt);
-  border-left: 5px solid var(--text-accent);
-  padding: 14px 22px 14px 22px;
-  display: block;
-  margin-block-start: 0.5em;
-  margin-block-end: 1em;
-  margin-inline-start: 20px;
-  margin-inline-end: 80px;
-  text-align: justify;
-  hyphens: auto;
+.markdown-preview-view blockquote p {
+  display: inline;
+  margin: 0 0 0 -5px;
 }
-blockquote.mild {
-  border-left: 5px solid var(--accent-mild);
-  padding: 14px 22px 14px 22px;
+/* Add quotation character before and after quote */
+.markdown-preview-view blockquote:before {
+  font: 14px/20px serif;
+  color: var(--text-accent);
+  content: "\201C";
+  font-size: 3em;
+  line-height: 0.1em;
+  vertical-align: -0.3em;
+}
+.markdown-preview-view blockquote:after {
+  font: 14px/20px serif;
+  color: var(--text-accent);
+  content: "\201D";
+  font-size: 3em;
+  line-height: 0.1em;
+  vertical-align: -0.3em;
 }
 
 /*=============== lists bullets ================*/
