@@ -83,7 +83,6 @@ body:not(.is-grabbing) .nav-folder-title:hover .nav-folder-collapse-indicator {
   background: none;
 }
 
-
 /* change highlight h1 in text from outline panel or search */
 /* because color the same */
 
@@ -450,6 +449,14 @@ input[type="checkbox"]:checked {
 }
 .cm-animate-fat-cursor {
   background: var(--text-accent);
+}
+
+/* active line selection*/
+.theme-light .CodeMirror-activeline .CodeMirror-linebackground {
+  background-color: rgba(0, 0, 0, 0.1) !important;
+}
+.theme-dark .CodeMirror-activeline .CodeMirror-linebackground {
+  background-color: rgba(0, 0, 0, 0.15) !important;
 }
 
 /* === Tag Pills === */
