@@ -78,7 +78,24 @@ body {
   --tooltip-bg: rgba(223, 74, 22, 0.9);
 }
 
-/* fix background of bolder-collapse-indicator */
+/* Enlarge image on hover */
+.markdown-preview-view img {
+  display: block;
+  margin-top: 20pt;
+  margin-bottom: 20pt;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;  /*experiment with values*/
+  transition:transform 0.25s ease;
+}
+
+.markdown-preview-view img:hover {
+    -webkit-transform:scale(1.8); /* experiment with values */
+    transform:scale(1.8);
+    
+}
+
+/* fix background of folder-collapse-indicator */
 body:not(.is-grabbing) .nav-folder-title:hover .nav-folder-collapse-indicator {
   background: none;
 }
@@ -1386,7 +1403,7 @@ tbody {
 }
 
 /* reduce size of embedded files */
-.markdown-preview-view img,
+/* .markdown-preview-view img, */
 .markdown-preview-view audio,
 .markdown-preview-view video {
   max-width: max(500px, 60%);
