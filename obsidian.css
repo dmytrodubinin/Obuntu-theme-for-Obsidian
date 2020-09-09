@@ -469,12 +469,12 @@ input[type="checkbox"]:checked {
 }
 
 /* active line selection*/
-.theme-light .CodeMirror-activeline .CodeMirror-linebackground {
+.CodeMirror-activeline .CodeMirror-linebackground {
   background-color: rgba(0, 0, 0, 0.1) !important;
 }
-.theme-dark .CodeMirror-activeline .CodeMirror-linebackground {
+/* .theme-dark .CodeMirror-activeline .CodeMirror-linebackground {
   background-color: rgba(0, 0, 0, 0.15) !important;
-}
+} */
 
 /* === Tag Pills === */
 
