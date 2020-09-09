@@ -78,6 +78,29 @@ body {
   --tooltip-bg: rgba(223, 74, 22, 0.9);
 }
 
+/* === Clutter free edit mode === */
+/* inline formatting, link targets and [[ ]] disappears if not active line*/
+div:not(.CodeMirror-activeline) > .CodeMirror-line span.cm-formatting,
+div:not(.CodeMirror-activeline) > .CodeMirror-line span.cm-string.cm-url,
+div:not(.CodeMirror-activeline) > .CodeMirror-line span.cm-formatting-link {
+  display: none;
+}
+
+/* hide all html tags -- IT IS COMMENTED OUT BY DEFAULT */
+/* div:not(.CodeMirror-activeline) > .CodeMirror-line span.cm-tag{ display: none; } */
+
+/* except list markers and code blocks */
+span.cm-formatting-list,
+span.cm-formatting-code-block.cm-hmd-codeblock {
+  /* header hashes -  span.cm-formatting-header */
+  display: inline !important;
+}
+/* and task checkboxes */
+span.cm-formatting-task {
+  display: inline !important;
+  font-family: monospace;
+}
+
 /* remove borders in iframe */
 iframe {
   border-width: 0;
