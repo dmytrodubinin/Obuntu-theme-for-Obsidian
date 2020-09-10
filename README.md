@@ -18,6 +18,7 @@ Thanks to [cannibalox](https://github.com/cannibalox) and his theme
 - better vim mode colors
 - responsive Community Themes page for better experience in wide screen (demo below)
 - List styling (numbering) in outline pane (thanks Klaas)
+- **Clutter Free edit mode**: inline formatting, link targets, header hashes disappears if not active line. Code blocks, list markers and html tags have old behavior to better visually distinguish them from regular text (screenshots below).
  
  ## More Screenshots
 
@@ -31,6 +32,18 @@ Thanks to [cannibalox](https://github.com/cannibalox) and his theme
  ![Light Theme](screenshot-light.png)
  ![Light Theme](screenshot-light-2.png)
 
+### Clutter Free edit mode:
+**Before**:
+
+![Clutter free off](clutter-free-off.png)
+
+**After**:
+
+![Clutter free on](clutter-free-on.png)
+
+
  ### Community Theme page with responsive experience
 
  ![Community Theme page](demo-community-themes-page-responsive.gif) 
+
+
