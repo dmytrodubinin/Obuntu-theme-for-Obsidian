@@ -82,6 +82,7 @@ body {
 /* for better looking after enable Clutter free edit mode */
 .cm-header-1 {
   font-size: 30px;
+  color: var(--text-accent);
 }
 .cm-header-2 {
   font-size: 26px;
