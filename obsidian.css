@@ -103,21 +103,22 @@ body {
 
 /* === Clutter free edit mode === */
 /* inline formatting, link targets and [[ ]] disappears if not active line*/
-div:not(.CodeMirror-activeline) > .CodeMirror-line span.cm-formatting,
-div:not(.CodeMirror-activeline) > .CodeMirror-line span.cm-string.cm-url,
-div:not(.CodeMirror-activeline) > .CodeMirror-line span.cm-formatting-link {
+div:not(.CodeMirror-activeline) > .CodeMirror-line span.cm-formatting {
   display: none;
 }
-
-/* hide all html tags -- IT IS COMMENTED OUT BY DEFAULT */
-/* div:not(.CodeMirror-activeline) > .CodeMirror-line span.cm-tag{ display: none; } */
-
-/* except list markers and code blocks */
+/* except list markers, links, images, urls and code blocks */
+span.cm-image,
+span.cm-link,
+span.cm-url,
 span.cm-formatting-list,
 span.cm-formatting-code-block.cm-hmd-codeblock {
   /* header hashes -  span.cm-formatting-header */
   display: inline !important;
 }
+
+/* hide all html tags -- IT IS COMMENTED OUT BY DEFAULT */
+/* div:not(.CodeMirror-activeline) > .CodeMirror-line span.cm-tag{ display: none; } */
+
 /* and task checkboxes */
 span.cm-formatting-task {
   display: inline !important;
