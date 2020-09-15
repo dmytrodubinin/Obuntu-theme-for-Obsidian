@@ -78,6 +78,42 @@ body {
   --tooltip-bg: rgba(223, 74, 22, 0.9);
 }
 
+/*=== Titlebar for v0.8.13+ ===*/
+.titlebar {
+  background-color: var(--background-secondary);
+  border-bottom: 1px solid var(--background-primary);
+}
+.titlebar-inner {
+  color: var(--text-normal);
+}
+.titlebar-text {
+  color: var(--text-normal);
+}
+
+/*general buttons svg changes*/
+rect {
+  fill-opacity: 1;
+  stroke: var(--text-normal);
+}
+
+/*for future editing maximize btn*/
+.titlebar-button.mod-maximize[aria-label="Maximize"] {
+}
+.titlebar-button.mod-maximize[aria-label="Restore down"] {
+}
+
+/*close btn edit styles*/
+.titlebar-button.mod-close {
+  color: var(--text-normal);
+}
+.titlebar-button.mod-close:hover {
+  background-color: transparent;
+}
+.titlebar-button.mod-close:hover svg {
+  stroke: var(--text-accent);
+}
+
+
 /* change heading size in edit mode */
 /* for better looking after enable Clutter free edit mode */
 .cm-header-1 {
@@ -2185,8 +2221,3 @@ g.stateGroup line {
   stroke: var(--text-muted) !important;
 }
 
-rect {
-  fill: var(--text-accent-hover);
-  fill-opacity: 1;
-  stroke: var(--text-normal);
-}
