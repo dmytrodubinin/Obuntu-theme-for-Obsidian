@@ -90,27 +90,17 @@ body {
   color: var(--text-normal);
 }
 
-/*general buttons svg changes*/
-rect {
-  fill-opacity: 1;
-  stroke: var(--text-normal);
-}
-
 /*for future editing maximize btn*/
 .titlebar-button.mod-maximize[aria-label="Maximize"] {
 }
 .titlebar-button.mod-maximize[aria-label="Restore down"] {
 }
 
-/*close btn edit styles*/
-.titlebar-button.mod-close {
-  color: var(--text-normal);
+.titlebar-button:hover {
+  color: var(--text-accent);
 }
 .titlebar-button.mod-close:hover {
   background-color: transparent;
-}
-.titlebar-button.mod-close:hover svg {
-  stroke: var(--text-accent);
 }
 
 
