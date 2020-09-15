@@ -96,11 +96,9 @@ body {
 .titlebar-button.mod-maximize[aria-label="Restore down"] {
 }
 
-.titlebar-button:hover {
-  color: var(--text-accent);
-}
 .titlebar-button.mod-close:hover {
   background-color: transparent;
+  color: var(--text-accent);
 }
 
 
