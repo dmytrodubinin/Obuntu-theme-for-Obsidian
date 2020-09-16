@@ -489,6 +489,7 @@ input[type="checkbox"]:checked {
   margin-left: -25px;
   top: 5px;
   cursor: pointer;
+  filter: none; /*remove default filter*/
 }
 .markdown-preview-view .task-list-item {
   padding-inline-start: 25px;
