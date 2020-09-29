@@ -188,6 +188,9 @@ body:not(.is-grabbing) .nav-folder-title:hover .nav-folder-collapse-indicator {
   color: #fff;
   font-weight: bold;
 }
+.tooltip .tooltip-arrow {
+  border-bottom: 5px solid var(--tooltip-bg);
+}
 
 /* Make selected items in settings more visible */
 .horizontal-tab-nav-item.is-active,
@@ -208,246 +211,6 @@ body:not(.is-grabbing) .nav-folder-title:hover .nav-folder-collapse-indicator {
 /* fix local graph input range background */
 input[type="range"] {
   background-color: var(--background-secondary);
-}
-
-/* === Header Counters === */
-/* List styling (numbering) for outline pane */
-/* Thanks Klaas */
-
-body
-  > div
-  > div.horizontal-main-container
-  > div
-  > div.workspace-split.mod-horizontal.mod-right-split
-  > div.workspace-tabs
-  > div.workspace-leaf
-  > div
-  > div.view-content
-  > div.outline {
-  counter-reset: h1;
-}
-
-body
-  > div
-  > div.horizontal-main-container
-  > div
-  > div.workspace-split.mod-horizontal.mod-right-split
-  > div.workspace-tabs
-  > div.workspace-leaf
-  > div
-  > div.view-content
-  > div.outline
-  > div
-  > div.pane-clickable-item {
-  counter-reset: h2;
-}
-
-body
-  > div
-  > div.horizontal-main-container
-  > div
-  > div.workspace-split.mod-horizontal.mod-right-split
-  > div.workspace-tabs
-  > div.workspace-leaf
-  > div
-  > div.view-content
-  > div.outline
-  > div
-  > div.outline-heading-children
-  > div
-  > div.pane-clickable-item {
-  counter-reset: h3;
-}
-
-body
-  > div
-  > div.horizontal-main-container
-  > div
-  > div.workspace-split.mod-horizontal.mod-right-split
-  > div.workspace-tabs
-  > div.workspace-leaf
-  > div
-  > div.view-content
-  > div.outline
-  > div
-  > div.outline-heading-children
-  > div
-  > div.outline-heading-children
-  > div
-  > div.pane-clickable-item {
-  counter-reset: h4;
-}
-
-body
-  > div
-  > div.horizontal-main-container
-  > div
-  > div.workspace-split.mod-horizontal.mod-right-split
-  > div.workspace-tabs
-  > div.workspace-leaf
-  > div
-  > div.view-content
-  > div.outline
-  > div
-  > div.outline-heading-children
-  > div
-  > div.outline-heading-children
-  > div
-  > div.outline-heading-children
-  > div
-  > div.pane-clickable-item {
-  counter-reset: h5;
-}
-
-body
-  > div
-  > div.horizontal-main-container
-  > div
-  > div.workspace-split.mod-horizontal.mod-right-split
-  > div.workspace-tabs
-  > div.workspace-leaf
-  > div
-  > div.view-content
-  > div.outline
-  > div
-  > div.outline-heading-children
-  > div
-  > div.outline-heading-children
-  > div
-  > div.outline-heading-children
-  > div
-  > div.outline-heading-children
-  > div
-  > div.pane-clickable-item {
-  counter-reset: h6;
-}
-
-body
-  > div
-  > div.horizontal-main-container
-  > div
-  > div.workspace-split.mod-horizontal.mod-right-split
-  > div.workspace-tabs
-  > div.workspace-leaf
-  > div
-  > div.view-content
-  > div.outline
-  > div
-  > div.pane-clickable-item:before {
-  counter-increment: h1;
-  content: counter(h1) ". ";
-}
-
-body
-  > div
-  > div.horizontal-main-container
-  > div
-  > div.workspace-split.mod-horizontal.mod-right-split
-  > div.workspace-tabs
-  > div.workspace-leaf
-  > div
-  > div.view-content
-  > div.outline
-  > div
-  > div.outline-heading-children
-  > div
-  > div.pane-clickable-item:before {
-  counter-increment: h2;
-  content: counter(h1) "." counter(h2) ". ";
-}
-
-body
-  > div
-  > div.horizontal-main-container
-  > div
-  > div.workspace-split.mod-horizontal.mod-right-split
-  > div.workspace-tabs
-  > div.workspace-leaf
-  > div
-  > div.view-content
-  > div.outline
-  > div
-  > div.outline-heading-children
-  > div
-  > div.outline-heading-children
-  > div
-  > div.pane-clickable-item:before {
-  counter-increment: h3;
-  content: counter(h1) "." counter(h2) "." counter(h3) ". ";
-}
-
-body
-  > div
-  > div.horizontal-main-container
-  > div
-  > div.workspace-split.mod-horizontal.mod-right-split
-  > div.workspace-tabs
-  > div.workspace-leaf
-  > div
-  > div.view-content
-  > div.outline
-  > div
-  > div.outline-heading-children
-  > div
-  > div.outline-heading-children
-  > div
-  > div.outline-heading-children
-  > div
-  > div.pane-clickable-item:before {
-  counter-increment: h4;
-  content: counter(h1) "." counter(h2) "." counter(h3) "." counter(h4) ". ";
-}
-
-body
-  > div
-  > div.horizontal-main-container
-  > div
-  > div.workspace-split.mod-horizontal.mod-right-split
-  > div.workspace-tabs
-  > div.workspace-leaf
-  > div
-  > div.view-content
-  > div.outline
-  > div
-  > div.outline-heading-children
-  > div
-  > div.outline-heading-children
-  > div
-  > div.outline-heading-children
-  > div
-  > div.outline-heading-children
-  > div
-  > div.pane-clickable-item:before {
-  counter-increment: h5;
-  content: counter(h1) "." counter(h2) "." counter(h3) "." counter(h4) "."
-    counter(h5) ". ";
-}
-
-body
-  > div
-  > div.horizontal-main-container
-  > div
-  > div.workspace-split.mod-horizontal.mod-right-split
-  > div.workspace-tabs
-  > div.workspace-leaf
-  > div
-  > div.view-content
-  > div.outline
-  > div
-  > div.outline-heading-children
-  > div
-  > div.outline-heading-children
-  > div
-  > div.outline-heading-children
-  > div
-  > div.outline-heading-children
-  > div
-  > div.outline-heading-children
-  > div
-  > div.pane-clickable-item:before {
-  counter-increment: h6;
-  content: counter(h1) "." counter(h2) "." counter(h3) "." counter(h4) "."
-    counter(h5) "." counter(h6) ". ";
 }
 
 /* add border radius in popup for suggestion  in tags etc */
@@ -559,12 +322,13 @@ input[type="checkbox"]:checked {
   border: none;
   color: white !important;
   font-size: 11px;
+  font-weight: bold;
   line-height: 1.6em;
   padding: 0px 7px 1px 7px;
   text-align: center;
   text-decoration: none !important;
   display: inline-block;
-  margin: 0px 4px;
+  margin: 0px 2px;
   cursor: pointer;
   border-radius: 10px;
 }
@@ -593,12 +357,11 @@ input[type="checkbox"]:checked {
   background-color: var(--background-primary);
   color: var(--text-normal);
   border: none;
-  font-size: 12px;
+  font-size: 13px;
   padding: 1px 8px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  margin: 1px 1px;
   cursor: pointer;
   border-radius: 14px;
   transition: all 0.2s ease;
@@ -608,7 +371,7 @@ input[type="checkbox"]:checked {
   background-color: var(--background-primary);
   color: var(--text-normal);
   border: none;
-  font-size: 11px;
+  font-size: 13px;
   padding: 2px 8px;
   text-align: center;
   text-decoration: none;
@@ -1262,6 +1025,16 @@ input[type="number"] {
 }
 .CodeMirror-lines > *::selection {
   color: white;
+}
+
+.theme-light .graph-view.color-fill-tag,
+.theme-dark .graph-view.color-fill-tag {
+  color: var(--text-accent);
+}
+
+.theme-light .graph-view.color-fill-attachment,
+.theme-dark .graph-view.color-fill-attachment {
+  color: var(--text-muted);
 }
 
 /*==== codemirror line numbers gutter edit mode ====*/
