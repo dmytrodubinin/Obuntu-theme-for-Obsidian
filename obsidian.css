@@ -1151,12 +1151,12 @@ sub {
   hyphens: auto;
   /* margin-inline-start: 0; */
 }
-.markdown-preview-view blockquote p {
+/* .markdown-preview-view blockquote p {
   display: inline;
   margin: 0;
-}
+} */
 /* Add quotation character before and after quote */
-.markdown-preview-view blockquote:before {
+/* .markdown-preview-view blockquote:before {
   font: 14px/20px serif;
   color: var(--text-accent);
   content: "\201C";
@@ -1171,7 +1171,7 @@ sub {
   font-size: 3em;
   line-height: 0.1em;
   vertical-align: -0.3em;
-}
+} */
 
 /*=============== lists bullets ================*/
 ul {
