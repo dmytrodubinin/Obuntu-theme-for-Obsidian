@@ -658,11 +658,10 @@ h6::before {
 }
 
 /* =====  left sidebar =========*/
-
+/*
 .workspace-tab-header-container {
   display: flex;
   background-color: var(--background-secondary-alt);
-  height: 36px; /* aligh tab header */
   padding-top: 1px;
 }
 
@@ -692,10 +691,10 @@ h6::before {
 .nav-files-container {
   flex-grow: 1;
   overflow-y: auto;
-  padding-left: 7px; /* reduce to 0 for more space */
   padding-bottom: 10px;
   margin-bottom: 10px;
 }
+*/
 
 /* == File Explorer === */
 /*.nav-file-title,
@@ -755,7 +754,7 @@ input[type="number"] {
 }
 
 /*---- nav arrows adjust location ----*/
-
+/*
 .nav-folder-collapse-indicator {
   position: absolute;
   left: 12px;
@@ -768,9 +767,9 @@ input[type="number"] {
 .nav-folder.is-collapsed .nav-folder-collapse-indicator {
   transform: translateX(-4px) translateY(1px) rotate(-90deg);
 }
-
+*/
 /* ===== smaller view-actions icons ===== */
-
+/*
 .view-action > svg {
   width: 14px;
   height: 14px;
@@ -785,7 +784,7 @@ input[type="number"] {
   width: 14px;
   height: 14px;
 }
-
+*/
 /* ===== fix the selection highlight ==== */
 
 .suggestion-item.is-selected {
@@ -1981,4 +1980,3 @@ g.stateGroup line {
 .marker.cross {
   stroke: var(--text-muted) !important;
 }
-
