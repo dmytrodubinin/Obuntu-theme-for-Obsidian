@@ -698,7 +698,7 @@ h6::before {
 }
 
 /* == File Explorer === */
-.nav-file-title,
+/*.nav-file-title,
 .nav-folder-title {
   padding: 0px 14px 0px 20px;
 }
@@ -720,13 +720,11 @@ h6::before {
   background-color: var(--background-primary);
   border-radius: 2px;
   font-weight: bold;
-  /* color: var(--text-accent); */
   border-left: 2px solid var(--text-accent);
   transition: all 0.5s ease;
 }
 .nav-file.is-active > .nav-file-title {
   padding-left: 5px;
-  /* margin-left: 5px; */
 }
 body:not(.is-grabbing) .nav-file-title:hover,
 body:not(.is-grabbing) .nav-folder-title:hover {
@@ -739,6 +737,7 @@ body:not(.is-grabbing) .nav-folder-title:hover {
   background-color: var(--background-secondary-alt);
   top: -1px;
 }
+*/
 
 /*-------search pane---------*/
 input[type="text"],
