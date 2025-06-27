@@ -1436,6 +1436,11 @@ text.actor > tspan {
   stroke: var(--text-accent) !important;
 }
 
+/* fix mermaid node label color */
+.mermaid span.nodeLabel {
+  color: inherit !important;
+}
+
 /** Section styling */
 
 .mermaid-main-font {
